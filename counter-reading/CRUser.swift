@@ -6,10 +6,17 @@
 //  Copyright © 2019 Christoph Lemke. All rights reserved.
 //
 
-import Foundation
-public class CRUser{
+import UIKit
+
+public class CRUser {
     
-    let username: String
-    let userid: Int64
+    let userName: String
+    let userId: Int64
    
+    init(username: String, userid: Int64) {
+        self.userName = username
+        self.userId = userid
+    }
+    
+    
 }
