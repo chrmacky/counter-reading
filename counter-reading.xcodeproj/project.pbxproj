@@ -14,6 +14,7 @@
 		AAEC350C221772AE003FB9F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEC350A221772AE003FB9F6 /* LaunchScreen.storyboard */; };
 		AAEC3517221772AE003FB9F6 /* counter_readingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC3516221772AE003FB9F6 /* counter_readingTests.swift */; };
 		AAEC3522221772AE003FB9F6 /* counter_readingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC3521221772AE003FB9F6 /* counter_readingUITests.swift */; };
+		AAEC3530221772FC003FB9F6 /* CRUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC352F221772FC003FB9F6 /* CRUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AAEC351D221772AE003FB9F6 /* counter-readingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "counter-readingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEC3521221772AE003FB9F6 /* counter_readingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = counter_readingUITests.swift; sourceTree = "<group>"; };
 		AAEC3523221772AE003FB9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAEC352F221772FC003FB9F6 /* CRUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				AAEC3508221772AE003FB9F6 /* Assets.xcassets */,
 				AAEC350A221772AE003FB9F6 /* LaunchScreen.storyboard */,
 				AAEC350D221772AE003FB9F6 /* Info.plist */,
+				AAEC352F221772FC003FB9F6 /* CRUser.swift */,
 			);
 			path = "counter-reading";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAEC3530221772FC003FB9F6 /* CRUser.swift in Sources */,
 				AAEC3504221772AC003FB9F6 /* ViewController.swift in Sources */,
 				AAEC3502221772AC003FB9F6 /* AppDelegate.swift in Sources */,
 			);
