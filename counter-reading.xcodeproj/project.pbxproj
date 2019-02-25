@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA80289B222479F700DEA58D /* CRCVCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA802899222479F700DEA58D /* CRCVCellViewController.swift */; };
+		AA80289C222479F700DEA58D /* CRCVCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA80289A222479F700DEA58D /* CRCVCellViewController.xib */; };
+		AA80289E2224808100DEA58D /* CRElectroCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA80289D2224808100DEA58D /* CRElectroCounter.swift */; };
+		AA8028A0222483FD00DEA58D /* CRSquareCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA80289F222483FD00DEA58D /* CRSquareCounter.swift */; };
 		AAEC3502221772AC003FB9F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC3501221772AC003FB9F6 /* AppDelegate.swift */; };
 		AAEC3504221772AC003FB9F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC3503221772AC003FB9F6 /* ViewController.swift */; };
 		AAEC3507221772AC003FB9F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEC3505221772AC003FB9F6 /* Main.storyboard */; };
@@ -15,7 +19,12 @@
 		AAEC3517221772AE003FB9F6 /* counter_readingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC3516221772AE003FB9F6 /* counter_readingTests.swift */; };
 		AAEC3522221772AE003FB9F6 /* counter_readingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC3521221772AE003FB9F6 /* counter_readingUITests.swift */; };
 		AAEC3530221772FC003FB9F6 /* CRUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC352F221772FC003FB9F6 /* CRUser.swift */; };
-		AAEC35322217753C003FB9F6 /* CRCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC35312217753C003FB9F6 /* CRCounter.swift */; };
+		AAEC3534221992AD003FB9F6 /* CRBaseCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC3533221992AD003FB9F6 /* CRBaseCounter.swift */; };
+		AAEC3539221D9BAA003FB9F6 /* CRData_Mockup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC3538221D9BAA003FB9F6 /* CRData_Mockup.swift */; };
+		AAEC353B221DFFC3003FB9F6 /* CRCounterCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC353A221DFFC3003FB9F6 /* CRCounterCategory.swift */; };
+		AAEC353D221F14E2003FB9F6 /* CRLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC353C221F14E2003FB9F6 /* CRLocation.swift */; };
+		AAEC353F221F152E003FB9F6 /* CRBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC353E221F152E003FB9F6 /* CRBaseModel.swift */; };
+		AAEC3542221F3A06003FB9F6 /* CRIBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC3541221F3A06003FB9F6 /* CRIBaseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA802899222479F700DEA58D /* CRCVCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRCVCellViewController.swift; sourceTree = "<group>"; };
+		AA80289A222479F700DEA58D /* CRCVCellViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CRCVCellViewController.xib; sourceTree = "<group>"; };
+		AA80289D2224808100DEA58D /* CRElectroCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRElectroCounter.swift; sourceTree = "<group>"; };
+		AA80289F222483FD00DEA58D /* CRSquareCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRSquareCounter.swift; sourceTree = "<group>"; };
 		AAEC34FE221772AC003FB9F6 /* counter-reading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "counter-reading.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEC3501221772AC003FB9F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAEC3503221772AC003FB9F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +63,12 @@
 		AAEC3521221772AE003FB9F6 /* counter_readingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = counter_readingUITests.swift; sourceTree = "<group>"; };
 		AAEC3523221772AE003FB9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAEC352F221772FC003FB9F6 /* CRUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUser.swift; sourceTree = "<group>"; };
-		AAEC35312217753C003FB9F6 /* CRCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRCounter.swift; sourceTree = "<group>"; };
+		AAEC3533221992AD003FB9F6 /* CRBaseCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRBaseCounter.swift; sourceTree = "<group>"; };
+		AAEC3538221D9BAA003FB9F6 /* CRData_Mockup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRData_Mockup.swift; sourceTree = "<group>"; };
+		AAEC353A221DFFC3003FB9F6 /* CRCounterCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRCounterCategory.swift; sourceTree = "<group>"; };
+		AAEC353C221F14E2003FB9F6 /* CRLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRLocation.swift; sourceTree = "<group>"; };
+		AAEC353E221F152E003FB9F6 /* CRBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRBaseModel.swift; sourceTree = "<group>"; };
+		AAEC3541221F3A06003FB9F6 /* CRIBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRIBaseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +119,16 @@
 		AAEC3500221772AC003FB9F6 /* counter-reading */ = {
 			isa = PBXGroup;
 			children = (
+				AAEC3537221D9B6A003FB9F6 /* data */,
+				AAEC35362219FB63003FB9F6 /* model */,
 				AAEC3501221772AC003FB9F6 /* AppDelegate.swift */,
 				AAEC3503221772AC003FB9F6 /* ViewController.swift */,
+				AA802899222479F700DEA58D /* CRCVCellViewController.swift */,
+				AA80289A222479F700DEA58D /* CRCVCellViewController.xib */,
 				AAEC3505221772AC003FB9F6 /* Main.storyboard */,
 				AAEC3508221772AE003FB9F6 /* Assets.xcassets */,
 				AAEC350A221772AE003FB9F6 /* LaunchScreen.storyboard */,
 				AAEC350D221772AE003FB9F6 /* Info.plist */,
-				AAEC352F221772FC003FB9F6 /* CRUser.swift */,
-				AAEC35312217753C003FB9F6 /* CRCounter.swift */,
 			);
 			path = "counter-reading";
 			sourceTree = "<group>";
@@ -131,6 +151,37 @@
 			path = "counter-readingUITests";
 			sourceTree = "<group>";
 		};
+		AAEC35362219FB63003FB9F6 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AAEC3540221F39F2003FB9F6 /* Interface */,
+				AAEC352F221772FC003FB9F6 /* CRUser.swift */,
+				AAEC353A221DFFC3003FB9F6 /* CRCounterCategory.swift */,
+				AAEC3533221992AD003FB9F6 /* CRBaseCounter.swift */,
+				AA80289D2224808100DEA58D /* CRElectroCounter.swift */,
+				AA80289F222483FD00DEA58D /* CRSquareCounter.swift */,
+				AAEC353C221F14E2003FB9F6 /* CRLocation.swift */,
+				AAEC353E221F152E003FB9F6 /* CRBaseModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		AAEC3537221D9B6A003FB9F6 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				AAEC3538221D9BAA003FB9F6 /* CRData_Mockup.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		AAEC3540221F39F2003FB9F6 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				AAEC3541221F3A06003FB9F6 /* CRIBaseModel.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,6 +192,7 @@
 				AAEC34FA221772AC003FB9F6 /* Sources */,
 				AAEC34FB221772AC003FB9F6 /* Frameworks */,
 				AAEC34FC221772AC003FB9F6 /* Resources */,
+				AAEC3543221F4CFC003FB9F6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -238,6 +290,7 @@
 				AAEC350C221772AE003FB9F6 /* LaunchScreen.storyboard in Resources */,
 				AAEC3509221772AE003FB9F6 /* Assets.xcassets in Resources */,
 				AAEC3507221772AC003FB9F6 /* Main.storyboard in Resources */,
+				AA80289C222479F700DEA58D /* CRCVCellViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,15 +310,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AAEC3543221F4CFC003FB9F6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nTAGS=\"TODO:|FIXME:\"\nERRORTAG=\"ERROR:\"\necho \"searching ${SRCROOT} for ${TAGS}\"\nfind \"${SRCROOT}\" \\( -name \"*.swift\" \\) -print0 \\\n| xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$\" \\\n| perl -p -e \"s/($TAGS)/ warning: \\$1/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AAEC34FA221772AC003FB9F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA80289B222479F700DEA58D /* CRCVCellViewController.swift in Sources */,
 				AAEC3530221772FC003FB9F6 /* CRUser.swift in Sources */,
+				AAEC353D221F14E2003FB9F6 /* CRLocation.swift in Sources */,
+				AAEC353F221F152E003FB9F6 /* CRBaseModel.swift in Sources */,
+				AA80289E2224808100DEA58D /* CRElectroCounter.swift in Sources */,
+				AAEC3539221D9BAA003FB9F6 /* CRData_Mockup.swift in Sources */,
+				AA8028A0222483FD00DEA58D /* CRSquareCounter.swift in Sources */,
 				AAEC3504221772AC003FB9F6 /* ViewController.swift in Sources */,
 				AAEC3502221772AC003FB9F6 /* AppDelegate.swift in Sources */,
-				AAEC35322217753C003FB9F6 /* CRCounter.swift in Sources */,
+				AAEC3534221992AD003FB9F6 /* CRBaseCounter.swift in Sources */,
+				AAEC3542221F3A06003FB9F6 /* CRIBaseModel.swift in Sources */,
+				AAEC353B221DFFC3003FB9F6 /* CRCounterCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
