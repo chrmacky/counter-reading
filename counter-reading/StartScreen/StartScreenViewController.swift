@@ -1,23 +1,23 @@
 //
-//  CRCVCellViewController.swift
+//  StartScreenViewController.swift
 //  counter-reading
 //
-//  Created by Christoph Lemke on 25.02.19.
+//  Created by Christoph Lemke on 05.03.19.
 //  Copyright © 2019 Christoph Lemke. All rights reserved.
 //
 
 import UIKit
 
-class CRCVCellViewController: UIViewController {
+// First View of the App
+class StartScreenViewController: UIViewController {
 
-    @IBOutlet weak var counterLabel: UILabel!
-    @IBOutlet weak var counterLastUpdateDate: UILabel!
+    @IBOutlet weak var startImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        startImage.layer.cornerRadius = 12
+        startImage.layer.masksToBounds = true
     }
-
+    
 
     /*
     // MARK: - Navigation
@@ -29,7 +29,4 @@ class CRCVCellViewController: UIViewController {
     }
     */
 
-    private func setCounterVisible(){
-        
-    }
 }

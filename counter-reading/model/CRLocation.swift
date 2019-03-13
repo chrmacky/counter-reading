@@ -8,24 +8,25 @@
 
 import Foundation
 
-public class CRLocation : CRIBaseModel{
+// TODO: based of an interface/ protocol
+public class CRLocation{
     
     // MARK: Properties
-    var id: String
+    var locationId: String
     let locationName: String
     let locationPLZ: Int64
     let locationStreet: String
     let locationStreetNumber: String
-    let locationCounter: [CRBaseCounter]
+    let locationUser: [CRUser]
     
     // MARK: Initialization
-    init(id: String, locationName: String, locationPLZ: Int64, locationStreet: String, locationStreetNumber: String, locationCounter: [CRBaseCounter]) {
-        self.id = id
-        self.locationName = locationName
-        self.locationPLZ = locationPLZ
-        self.locationStreet = locationStreet
-        self.locationStreetNumber = locationStreetNumber
-        self.locationCounter = locationCounter
+    init(locId: String, locName: String, locPLZ: Int64, locStreet: String, locStreetNumber: String, locUser: [CRUser]) {
+        self.locationId = locId
+        self.locationName = locName
+        self.locationPLZ = locPLZ
+        self.locationStreet = locStreet
+        self.locationStreetNumber = locStreetNumber
+        self.locationUser = locUser
     }
     
     

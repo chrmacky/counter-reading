@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA80289B222479F700DEA58D /* CRCVCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA802899222479F700DEA58D /* CRCVCellViewController.swift */; };
-		AA80289C222479F700DEA58D /* CRCVCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA80289A222479F700DEA58D /* CRCVCellViewController.xib */; };
-		AA80289E2224808100DEA58D /* CRElectroCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA80289D2224808100DEA58D /* CRElectroCounter.swift */; };
-		AA8028A0222483FD00DEA58D /* CRSquareCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA80289F222483FD00DEA58D /* CRSquareCounter.swift */; };
+		AA665DAB222DE044007E3CF5 /* CRCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DA9222DE043007E3CF5 /* CRCollectionCell.swift */; };
+		AA665DAC222DE044007E3CF5 /* CRCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA665DAA222DE044007E3CF5 /* CRCollectionCell.xib */; };
+		AA665DAE222ED708007E3CF5 /* CRRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DAD222ED708007E3CF5 /* CRRoundButton.swift */; };
+		AA665DB2222EDC84007E3CF5 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DB1222EDC84007E3CF5 /* LoginScreenViewController.swift */; };
+		AA665DB4222F017C007E3CF5 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DB3222F017C007E3CF5 /* StartScreenViewController.swift */; };
+		AA665DB6222F01A0007E3CF5 /* SignUpScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DB5222F01A0007E3CF5 /* SignUpScreenViewController.swift */; };
+		AA665DBA2236E049007E3CF5 /* CRCounterCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DB82236E048007E3CF5 /* CRCounterCollectionCell.swift */; };
+		AA665DBB2236E049007E3CF5 /* CRCounterCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA665DB92236E049007E3CF5 /* CRCounterCollectionCell.xib */; };
+		AA665DBD2239C8FF007E3CF5 /* CRUnitState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DBC2239C8FF007E3CF5 /* CRUnitState.swift */; };
+		AA665DBF2239CDD5007E3CF5 /* CRBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DBE2239CDD5007E3CF5 /* CRBaseModel.swift */; };
+		AA665DC12239CE4B007E3CF5 /* CRValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DC02239CE4B007E3CF5 /* CRValues.swift */; };
 		AAEC3502221772AC003FB9F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC3501221772AC003FB9F6 /* AppDelegate.swift */; };
-		AAEC3504221772AC003FB9F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC3503221772AC003FB9F6 /* ViewController.swift */; };
+		AAEC3504221772AC003FB9F6 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC3503221772AC003FB9F6 /* MainScreenViewController.swift */; };
 		AAEC3507221772AC003FB9F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEC3505221772AC003FB9F6 /* Main.storyboard */; };
 		AAEC3509221772AE003FB9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAEC3508221772AE003FB9F6 /* Assets.xcassets */; };
 		AAEC350C221772AE003FB9F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEC350A221772AE003FB9F6 /* LaunchScreen.storyboard */; };
@@ -23,8 +30,6 @@
 		AAEC3539221D9BAA003FB9F6 /* CRData_Mockup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC3538221D9BAA003FB9F6 /* CRData_Mockup.swift */; };
 		AAEC353B221DFFC3003FB9F6 /* CRCounterCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC353A221DFFC3003FB9F6 /* CRCounterCategory.swift */; };
 		AAEC353D221F14E2003FB9F6 /* CRLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC353C221F14E2003FB9F6 /* CRLocation.swift */; };
-		AAEC353F221F152E003FB9F6 /* CRBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC353E221F152E003FB9F6 /* CRBaseModel.swift */; };
-		AAEC3542221F3A06003FB9F6 /* CRIBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC3541221F3A06003FB9F6 /* CRIBaseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,13 +50,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AA802899222479F700DEA58D /* CRCVCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRCVCellViewController.swift; sourceTree = "<group>"; };
-		AA80289A222479F700DEA58D /* CRCVCellViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CRCVCellViewController.xib; sourceTree = "<group>"; };
-		AA80289D2224808100DEA58D /* CRElectroCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRElectroCounter.swift; sourceTree = "<group>"; };
-		AA80289F222483FD00DEA58D /* CRSquareCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRSquareCounter.swift; sourceTree = "<group>"; };
+		AA665DA9222DE043007E3CF5 /* CRCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRCollectionCell.swift; sourceTree = "<group>"; };
+		AA665DAA222DE044007E3CF5 /* CRCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CRCollectionCell.xib; sourceTree = "<group>"; };
+		AA665DAD222ED708007E3CF5 /* CRRoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRRoundButton.swift; sourceTree = "<group>"; };
+		AA665DB1222EDC84007E3CF5 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		AA665DB3222F017C007E3CF5 /* StartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
+		AA665DB5222F01A0007E3CF5 /* SignUpScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreenViewController.swift; sourceTree = "<group>"; };
+		AA665DB82236E048007E3CF5 /* CRCounterCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRCounterCollectionCell.swift; sourceTree = "<group>"; };
+		AA665DB92236E049007E3CF5 /* CRCounterCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CRCounterCollectionCell.xib; sourceTree = "<group>"; };
+		AA665DBC2239C8FF007E3CF5 /* CRUnitState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUnitState.swift; sourceTree = "<group>"; };
+		AA665DBE2239CDD5007E3CF5 /* CRBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRBaseModel.swift; sourceTree = "<group>"; };
+		AA665DC02239CE4B007E3CF5 /* CRValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRValues.swift; sourceTree = "<group>"; };
 		AAEC34FE221772AC003FB9F6 /* counter-reading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "counter-reading.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEC3501221772AC003FB9F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AAEC3503221772AC003FB9F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAEC3503221772AC003FB9F6 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		AAEC3506221772AC003FB9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAEC3508221772AE003FB9F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAEC350B221772AE003FB9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,8 +79,6 @@
 		AAEC3538221D9BAA003FB9F6 /* CRData_Mockup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRData_Mockup.swift; sourceTree = "<group>"; };
 		AAEC353A221DFFC3003FB9F6 /* CRCounterCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRCounterCategory.swift; sourceTree = "<group>"; };
 		AAEC353C221F14E2003FB9F6 /* CRLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRLocation.swift; sourceTree = "<group>"; };
-		AAEC353E221F152E003FB9F6 /* CRBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRBaseModel.swift; sourceTree = "<group>"; };
-		AAEC3541221F3A06003FB9F6 /* CRIBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRIBaseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA665DB7222F01AB007E3CF5 /* StartScreen */ = {
+			isa = PBXGroup;
+			children = (
+				AA665DB1222EDC84007E3CF5 /* LoginScreenViewController.swift */,
+				AA665DB3222F017C007E3CF5 /* StartScreenViewController.swift */,
+				AA665DB5222F01A0007E3CF5 /* SignUpScreenViewController.swift */,
+			);
+			path = StartScreen;
+			sourceTree = "<group>";
+		};
 		AAEC34F5221772AC003FB9F6 = {
 			isa = PBXGroup;
 			children = (
@@ -119,16 +139,20 @@
 		AAEC3500221772AC003FB9F6 /* counter-reading */ = {
 			isa = PBXGroup;
 			children = (
+				AA665DB7222F01AB007E3CF5 /* StartScreen */,
 				AAEC3537221D9B6A003FB9F6 /* data */,
 				AAEC35362219FB63003FB9F6 /* model */,
 				AAEC3501221772AC003FB9F6 /* AppDelegate.swift */,
-				AAEC3503221772AC003FB9F6 /* ViewController.swift */,
-				AA802899222479F700DEA58D /* CRCVCellViewController.swift */,
-				AA80289A222479F700DEA58D /* CRCVCellViewController.xib */,
+				AAEC3503221772AC003FB9F6 /* MainScreenViewController.swift */,
 				AAEC3505221772AC003FB9F6 /* Main.storyboard */,
 				AAEC3508221772AE003FB9F6 /* Assets.xcassets */,
 				AAEC350A221772AE003FB9F6 /* LaunchScreen.storyboard */,
 				AAEC350D221772AE003FB9F6 /* Info.plist */,
+				AA665DA9222DE043007E3CF5 /* CRCollectionCell.swift */,
+				AA665DAA222DE044007E3CF5 /* CRCollectionCell.xib */,
+				AA665DB82236E048007E3CF5 /* CRCounterCollectionCell.swift */,
+				AA665DB92236E049007E3CF5 /* CRCounterCollectionCell.xib */,
+				AA665DAD222ED708007E3CF5 /* CRRoundButton.swift */,
 			);
 			path = "counter-reading";
 			sourceTree = "<group>";
@@ -154,14 +178,13 @@
 		AAEC35362219FB63003FB9F6 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				AAEC3540221F39F2003FB9F6 /* Interface */,
 				AAEC352F221772FC003FB9F6 /* CRUser.swift */,
 				AAEC353A221DFFC3003FB9F6 /* CRCounterCategory.swift */,
+				AA665DBC2239C8FF007E3CF5 /* CRUnitState.swift */,
 				AAEC3533221992AD003FB9F6 /* CRBaseCounter.swift */,
-				AA80289D2224808100DEA58D /* CRElectroCounter.swift */,
-				AA80289F222483FD00DEA58D /* CRSquareCounter.swift */,
 				AAEC353C221F14E2003FB9F6 /* CRLocation.swift */,
-				AAEC353E221F152E003FB9F6 /* CRBaseModel.swift */,
+				AA665DBE2239CDD5007E3CF5 /* CRBaseModel.swift */,
+				AA665DC02239CE4B007E3CF5 /* CRValues.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -172,14 +195,6 @@
 				AAEC3538221D9BAA003FB9F6 /* CRData_Mockup.swift */,
 			);
 			path = data;
-			sourceTree = "<group>";
-		};
-		AAEC3540221F39F2003FB9F6 /* Interface */ = {
-			isa = PBXGroup;
-			children = (
-				AAEC3541221F3A06003FB9F6 /* CRIBaseModel.swift */,
-			);
-			path = Interface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,9 +303,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAEC350C221772AE003FB9F6 /* LaunchScreen.storyboard in Resources */,
+				AA665DBB2236E049007E3CF5 /* CRCounterCollectionCell.xib in Resources */,
 				AAEC3509221772AE003FB9F6 /* Assets.xcassets in Resources */,
 				AAEC3507221772AC003FB9F6 /* Main.storyboard in Resources */,
-				AA80289C222479F700DEA58D /* CRCVCellViewController.xib in Resources */,
+				AA665DAC222DE044007E3CF5 /* CRCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,17 +351,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA80289B222479F700DEA58D /* CRCVCellViewController.swift in Sources */,
+				AA665DB6222F01A0007E3CF5 /* SignUpScreenViewController.swift in Sources */,
 				AAEC3530221772FC003FB9F6 /* CRUser.swift in Sources */,
+				AA665DBF2239CDD5007E3CF5 /* CRBaseModel.swift in Sources */,
 				AAEC353D221F14E2003FB9F6 /* CRLocation.swift in Sources */,
-				AAEC353F221F152E003FB9F6 /* CRBaseModel.swift in Sources */,
-				AA80289E2224808100DEA58D /* CRElectroCounter.swift in Sources */,
 				AAEC3539221D9BAA003FB9F6 /* CRData_Mockup.swift in Sources */,
-				AA8028A0222483FD00DEA58D /* CRSquareCounter.swift in Sources */,
-				AAEC3504221772AC003FB9F6 /* ViewController.swift in Sources */,
+				AA665DBA2236E049007E3CF5 /* CRCounterCollectionCell.swift in Sources */,
+				AA665DAE222ED708007E3CF5 /* CRRoundButton.swift in Sources */,
+				AAEC3504221772AC003FB9F6 /* MainScreenViewController.swift in Sources */,
+				AA665DB2222EDC84007E3CF5 /* LoginScreenViewController.swift in Sources */,
+				AA665DB4222F017C007E3CF5 /* StartScreenViewController.swift in Sources */,
+				AA665DAB222DE044007E3CF5 /* CRCollectionCell.swift in Sources */,
 				AAEC3502221772AC003FB9F6 /* AppDelegate.swift in Sources */,
+				AA665DBD2239C8FF007E3CF5 /* CRUnitState.swift in Sources */,
 				AAEC3534221992AD003FB9F6 /* CRBaseCounter.swift in Sources */,
-				AAEC3542221F3A06003FB9F6 /* CRIBaseModel.swift in Sources */,
+				AA665DC12239CE4B007E3CF5 /* CRValues.swift in Sources */,
 				AAEC353B221DFFC3003FB9F6 /* CRCounterCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

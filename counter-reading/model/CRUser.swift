@@ -16,12 +16,16 @@ public class CRUser {
     public let userUid: String // uuid from firebase
     public let userName: String
     public let userEmail: String
+    public let userLocation: [CRLocation]
+    public let userCounter: [CRBaseCounter]
     
     // MARK: Initialization
-    init(username: String, userid: String, useremail: String) {
+    init(username: String, userid: String, useremail: String, userlocation: [CRLocation], usercounter: [CRBaseCounter]) {
         self.userName = username
         self.userUid = userid
         self.userEmail = useremail
+        self.userLocation = userlocation
+        self.userCounter = usercounter
     }
     
     
