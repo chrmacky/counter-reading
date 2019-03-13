@@ -19,15 +19,17 @@ public class CRBaseCounter{
     let counterCat: CRCounterCategory   // the categorie of the counter reader
     let counterLimitValue: Float        // the limit value from the counter reader, it can been modified
     let counterUnit: CRUnitState        // presents the unit of an counter reader
+    let counterValues: [CRValues]
        
     // MARK: Initialization
-    init(counterid: String, countername: String, counterStartValue: Float, counterCat: CRCounterCategory, counterLimitValue: Float, counterUnit: CRUnitState) {
+    init(counterid: String, countername: String, counterStartValue: Float, counterCat: CRCounterCategory, counterLimitValue: Float, counterUnit: CRUnitState, counterValues: [CRValues]) {
         self.counterId = counterid
         self.counterName = countername
         self.counterStartValue = counterStartValue
         self.counterCat = counterCat
         self.counterLimitValue = counterLimitValue
         self.counterUnit = counterUnit
+        self.counterValues = counterValues
     }
 }
 
