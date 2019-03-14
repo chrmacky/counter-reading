@@ -14,13 +14,13 @@ public class CRLocation{
     // MARK: Properties
     var locationId: String
     let locationName: String
-    let locationPLZ: Int64
+    let locationPLZ: Int
     let locationStreet: String
     let locationStreetNumber: String
     let locationUser: [CRUser]
     
     // MARK: Initialization
-    init(locId: String, locName: String, locPLZ: Int64, locStreet: String, locStreetNumber: String, locUser: [CRUser]) {
+    init(locId: String, locName: String, locPLZ: Int, locStreet: String, locStreetNumber: String, locUser: [CRUser]) {
         self.locationId = locId
         self.locationName = locName
         self.locationPLZ = locPLZ

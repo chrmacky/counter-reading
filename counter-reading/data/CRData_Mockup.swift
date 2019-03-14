@@ -9,11 +9,14 @@
 import Foundation
 
 class CRData_Mockup {
-
+    
     // MARK: Properties
     var userList = [CRUser]()
+    var userOneList = [CRUser]()
     var counterList = [CRBaseCounter]()
+    var counterOneList = [CRBaseCounter]()
     var locationList = [CRLocation]()
+    var counterValuesList = [CRValues]()
     
     init(userList: [CRUser], counterList: [CRBaseCounter]){
         self.userList = userList
@@ -22,17 +25,23 @@ class CRData_Mockup {
     }
     
     private func loadMockData(){
-        let counterWater1 = CRBaseCounter(counterid: "counterID1", countername: "kalt Wasserzähler 1", counterStartValue: 0.0, counterCat: CRCounterCategory(rawValue: CRCounterCategory.Strom.rawValue)!, counterLimitValue: 34.93, counterUnit: CRUnitState(rawValue: CRUnitState.Kilowatt.rawValue)!)
-        let counterElectro = CRBaseCounter(counterid: CRCounterCategory.Strom.rawValue, countername: "Stromzähler", counterStartValue: 12.08, counterCat: .Strom, counterLimitValue: 1234.98, counterElectro: 0.0)
+        let counterWater1 = CRBaseCounter(counterid: "TER34", countername: "kalt Wasser", counterStartValue: 12.0, counterCat: .Strom, counterLimitValue: 456.55, counterUnit: .Kilowatt, counterValues: counterValuesList)
         
-        let altenholz = CRLocation(id: "alten1", locationName: "Altenholz", locationPLZ: 66666, locationStreet: "StarssenName", locationStreetNumber: "23", locationCounter: [counterWater1])
-        let hamburg = CRLocation(id: "hh2", locationName: "hamburg", locationPLZ: 26151, locationStreet: "Street", locationStreetNumber: "75 B", locationCounter: [counterElectro])
-        locationList.append(altenholz)
+        let counterWater2 = CRBaseCounter(counterid: "FGRT457", countername: "warm Wasser", counterStartValue: 2.0, counterCat: .Wasser, counterLimitValue: 568.8, counterUnit: .qubikmeter, counterValues: counterValuesList)
+        
+        let counterStrom1 = CRBaseCounter(counterid: "STR567ZHzhg", countername: "Strom", counterStartValue: 0.0, counterCat: .Strom, counterLimitValue: 1234.8, counterUnit: .Kilowatt, counterValues: counterValuesList)
+        
+        let altenholz = CRLocation(locId: "Erc56vTz", locName: "Kiel", locPLZ: 24116, locStreet: "FleetStree", locStreetNumber: "23T", locUser: userOneList)
+        let hamburg = CRLocation(locId: "ArZ54Re4FRT", locName: "Hamburh", locPLZ: 23452, locStreet: "Fischmark", locStreetNumber: "45 B", locUser: userList)
+        counterList.append(counterWater2)
+        counterList.append(counterStrom1)
+        counterOneList.append(counterWater2)
 
-        let user1 = CRUser(username: "user1", userid: "uuid1", useremail: "user1@hth.to", userlocation: [altenholz])
-        let user2 = CRUser(username: "user2", userid: "uuid2", useremail: "uswr2@ghht.frt.de",userlocation: [hamburg])
+        let user1 = CRUser(username: "user1", userid: "uuid1", useremail: "user1@hth.to", userlocation: [altenholz], usercounter: [counterWater1])
+        let user2 = CRUser(username: "user2", userid: "uuid2", useremail: "uswr2@ghht.frt.de",userlocation: [hamburg], usercounter: counterOneList)
         userList.append(user1)
         userList.append(user2)
+        userOneList.append(user2)
         
     }
 }
