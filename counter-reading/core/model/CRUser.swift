@@ -10,7 +10,7 @@ import UIKit
 
 /// the class represent the user with all attributes
 /// firebase initialize the user with uuid from email and password
-public class CRUser {
+public class CRUser : CRBaseModel{
     
     // MARK: Properties
     public let userUid: String // uuid from firebase
@@ -20,12 +20,13 @@ public class CRUser {
     public let userCounter: [CRBaseCounter]
     
     // MARK: Initialization
-    init(username: String, userid: String, useremail: String, userlocation: [CRLocation], usercounter: [CRBaseCounter]) {
+    init(id: String, username: String, userid: String, useremail: String, userlocation: [CRLocation], usercounter: [CRBaseCounter]) {
         self.userName = username
         self.userUid = userid
         self.userEmail = useremail
         self.userLocation = userlocation
         self.userCounter = usercounter
+        super.init(id: id)
     }
     
     

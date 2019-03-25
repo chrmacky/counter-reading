@@ -1,5 +1,5 @@
 //
-//  CRCounterCategory.swift
+//  CRCounterCategoryEnum.swift
 //  counter-reading
 //
 //  Created by Christoph Lemke on 20.02.19.
@@ -9,8 +9,7 @@
 import Foundation
 
 /// used to describe the different categories on counter reader
-// TODO: must be translate for device speech
-enum CRCounterCategory: String {
+enum CRCounterCategoryEnum: String {
     case Gas = "Gas"
     case Strom = "Strom"
     case Wasser = "Wasser"

@@ -1,5 +1,5 @@
 //
-//  CRCollectionCell.swift
+//  CRMainCollectionCell.swift
 //  counter-reading
 //
 //  Created by Christoph Lemke on 04.03.19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CRCollectionCell: UICollectionViewCell {
+class CRMain_CollectionCell: UICollectionViewCell {
 
     //MARK: Properties
     private let cornerRadius: CGFloat = 12.0

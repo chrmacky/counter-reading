@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+public class CRBaseModel {
+    public let id: String
+    
+    init(id: String){
+        self.id = id
+        
+    }
+}

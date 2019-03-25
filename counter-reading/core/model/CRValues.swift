@@ -9,10 +9,13 @@
 import Foundation
 
 public class CRValues {
+    
+    // MARK: Properties
     let valueId: String
     let valueDate: String
-    let valueCount: Float
+    let valueCount: Float   // presents the current value of a couter meter reading
     
+    // MARK: Initialization
     init(valId: String, valDate: String, valCount: Float){
         self.valueId = valId
         self.valueDate = valDate

@@ -8,8 +8,7 @@
 
 import Foundation
 
-// TODO: based of an interface/ protocol
-public class CRLocation{
+public class CRLocation: CRBaseModel{
     
     // MARK: Properties
     var locationId: String
@@ -20,13 +19,14 @@ public class CRLocation{
     let locationUser: [CRUser]
     
     // MARK: Initialization
-    init(locId: String, locName: String, locPLZ: Int, locStreet: String, locStreetNumber: String, locUser: [CRUser]) {
+    init(id: String, locId: String, locName: String, locPLZ: Int, locStreet: String, locStreetNumber: String, locUser: [CRUser]) {
         self.locationId = locId
         self.locationName = locName
         self.locationPLZ = locPLZ
         self.locationStreet = locStreet
         self.locationStreetNumber = locStreetNumber
         self.locationUser = locUser
+        super.init(id: id)
     }
     
     

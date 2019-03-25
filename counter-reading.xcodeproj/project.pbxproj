@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA665DAB222DE044007E3CF5 /* CRCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DA9222DE043007E3CF5 /* CRCollectionCell.swift */; };
-		AA665DAC222DE044007E3CF5 /* CRCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA665DAA222DE044007E3CF5 /* CRCollectionCell.xib */; };
+		AA665DAB222DE044007E3CF5 /* CRMain_CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DA9222DE043007E3CF5 /* CRMain_CollectionCell.swift */; };
+		AA665DAC222DE044007E3CF5 /* CRMain_CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA665DAA222DE044007E3CF5 /* CRMain_CollectionCell.xib */; };
 		AA665DAE222ED708007E3CF5 /* CRRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DAD222ED708007E3CF5 /* CRRoundButton.swift */; };
 		AA665DB2222EDC84007E3CF5 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DB1222EDC84007E3CF5 /* LoginScreenViewController.swift */; };
 		AA665DB4222F017C007E3CF5 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DB3222F017C007E3CF5 /* StartScreenViewController.swift */; };
 		AA665DB6222F01A0007E3CF5 /* SignUpScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DB5222F01A0007E3CF5 /* SignUpScreenViewController.swift */; };
 		AA665DBA2236E049007E3CF5 /* CRCounterCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DB82236E048007E3CF5 /* CRCounterCollectionCell.swift */; };
 		AA665DBB2236E049007E3CF5 /* CRCounterCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA665DB92236E049007E3CF5 /* CRCounterCollectionCell.xib */; };
-		AA665DBD2239C8FF007E3CF5 /* CRUnitState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DBC2239C8FF007E3CF5 /* CRUnitState.swift */; };
+		AA665DBD2239C8FF007E3CF5 /* CRUnitStateEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DBC2239C8FF007E3CF5 /* CRUnitStateEnum.swift */; };
 		AA665DBF2239CDD5007E3CF5 /* CRBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DBE2239CDD5007E3CF5 /* CRBaseModel.swift */; };
 		AA665DC12239CE4B007E3CF5 /* CRValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DC02239CE4B007E3CF5 /* CRValues.swift */; };
+		AA665DC5223EE5A9007E3CF5 /* CRRepositoryMockup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DC4223EE5A9007E3CF5 /* CRRepositoryMockup.swift */; };
+		AA665DC9223EF0D7007E3CF5 /* CRMain_SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DC7223EF0D7007E3CF5 /* CRMain_SectionHeader.swift */; };
+		AA665DCA223EF0D7007E3CF5 /* CRMain_SectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA665DC8223EF0D7007E3CF5 /* CRMain_SectionHeader.xib */; };
+		AA665DCC223EF22A007E3CF5 /* CRMain_InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA665DCB223EF22A007E3CF5 /* CRMain_InfoView.xib */; };
+		AA665DCE223EF84A007E3CF5 /* CRMain_InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DCD223EF84A007E3CF5 /* CRMain_InfoView.swift */; };
+		AA665DD022478D75007E3CF5 /* CRCategoryLocationEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DCF22478D75007E3CF5 /* CRCategoryLocationEnum.swift */; };
+		AA665DD722483DB0007E3CF5 /* CRMainStart_Row.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA665DD622483DB0007E3CF5 /* CRMainStart_Row.xib */; };
+		AA665DD922483EEB007E3CF5 /* CRMainStart_Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665DD822483EEB007E3CF5 /* CRMainStart_Row.swift */; };
 		AAEC3502221772AC003FB9F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC3501221772AC003FB9F6 /* AppDelegate.swift */; };
-		AAEC3504221772AC003FB9F6 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC3503221772AC003FB9F6 /* MainScreenViewController.swift */; };
+		AAEC3504221772AC003FB9F6 /* CRMainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC3503221772AC003FB9F6 /* CRMainScreenViewController.swift */; };
 		AAEC3507221772AC003FB9F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEC3505221772AC003FB9F6 /* Main.storyboard */; };
 		AAEC3509221772AE003FB9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAEC3508221772AE003FB9F6 /* Assets.xcassets */; };
 		AAEC350C221772AE003FB9F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEC350A221772AE003FB9F6 /* LaunchScreen.storyboard */; };
@@ -28,7 +36,7 @@
 		AAEC3530221772FC003FB9F6 /* CRUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC352F221772FC003FB9F6 /* CRUser.swift */; };
 		AAEC3534221992AD003FB9F6 /* CRBaseCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC3533221992AD003FB9F6 /* CRBaseCounter.swift */; };
 		AAEC3539221D9BAA003FB9F6 /* CRData_Mockup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC3538221D9BAA003FB9F6 /* CRData_Mockup.swift */; };
-		AAEC353B221DFFC3003FB9F6 /* CRCounterCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC353A221DFFC3003FB9F6 /* CRCounterCategory.swift */; };
+		AAEC353B221DFFC3003FB9F6 /* CRCounterCategoryEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC353A221DFFC3003FB9F6 /* CRCounterCategoryEnum.swift */; };
 		AAEC353D221F14E2003FB9F6 /* CRLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEC353C221F14E2003FB9F6 /* CRLocation.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,20 +58,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AA665DA9222DE043007E3CF5 /* CRCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRCollectionCell.swift; sourceTree = "<group>"; };
-		AA665DAA222DE044007E3CF5 /* CRCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CRCollectionCell.xib; sourceTree = "<group>"; };
+		AA665DA9222DE043007E3CF5 /* CRMain_CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMain_CollectionCell.swift; sourceTree = "<group>"; };
+		AA665DAA222DE044007E3CF5 /* CRMain_CollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CRMain_CollectionCell.xib; sourceTree = "<group>"; };
 		AA665DAD222ED708007E3CF5 /* CRRoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRRoundButton.swift; sourceTree = "<group>"; };
 		AA665DB1222EDC84007E3CF5 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		AA665DB3222F017C007E3CF5 /* StartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
 		AA665DB5222F01A0007E3CF5 /* SignUpScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreenViewController.swift; sourceTree = "<group>"; };
 		AA665DB82236E048007E3CF5 /* CRCounterCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRCounterCollectionCell.swift; sourceTree = "<group>"; };
 		AA665DB92236E049007E3CF5 /* CRCounterCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CRCounterCollectionCell.xib; sourceTree = "<group>"; };
-		AA665DBC2239C8FF007E3CF5 /* CRUnitState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUnitState.swift; sourceTree = "<group>"; };
+		AA665DBC2239C8FF007E3CF5 /* CRUnitStateEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUnitStateEnum.swift; sourceTree = "<group>"; };
 		AA665DBE2239CDD5007E3CF5 /* CRBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRBaseModel.swift; sourceTree = "<group>"; };
 		AA665DC02239CE4B007E3CF5 /* CRValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRValues.swift; sourceTree = "<group>"; };
+		AA665DC4223EE5A9007E3CF5 /* CRRepositoryMockup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRRepositoryMockup.swift; sourceTree = "<group>"; };
+		AA665DC7223EF0D7007E3CF5 /* CRMain_SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMain_SectionHeader.swift; sourceTree = "<group>"; };
+		AA665DC8223EF0D7007E3CF5 /* CRMain_SectionHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CRMain_SectionHeader.xib; sourceTree = "<group>"; };
+		AA665DCB223EF22A007E3CF5 /* CRMain_InfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CRMain_InfoView.xib; sourceTree = "<group>"; };
+		AA665DCD223EF84A007E3CF5 /* CRMain_InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMain_InfoView.swift; sourceTree = "<group>"; };
+		AA665DCF22478D75007E3CF5 /* CRCategoryLocationEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRCategoryLocationEnum.swift; sourceTree = "<group>"; };
+		AA665DD622483DB0007E3CF5 /* CRMainStart_Row.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CRMainStart_Row.xib; sourceTree = "<group>"; };
+		AA665DD822483EEB007E3CF5 /* CRMainStart_Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMainStart_Row.swift; sourceTree = "<group>"; };
 		AAEC34FE221772AC003FB9F6 /* counter-reading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "counter-reading.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEC3501221772AC003FB9F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AAEC3503221772AC003FB9F6 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		AAEC3503221772AC003FB9F6 /* CRMainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRMainScreenViewController.swift; sourceTree = "<group>"; };
 		AAEC3506221772AC003FB9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AAEC3508221772AE003FB9F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAEC350B221772AE003FB9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -77,7 +93,7 @@
 		AAEC352F221772FC003FB9F6 /* CRUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUser.swift; sourceTree = "<group>"; };
 		AAEC3533221992AD003FB9F6 /* CRBaseCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRBaseCounter.swift; sourceTree = "<group>"; };
 		AAEC3538221D9BAA003FB9F6 /* CRData_Mockup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRData_Mockup.swift; sourceTree = "<group>"; };
-		AAEC353A221DFFC3003FB9F6 /* CRCounterCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRCounterCategory.swift; sourceTree = "<group>"; };
+		AAEC353A221DFFC3003FB9F6 /* CRCounterCategoryEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRCounterCategoryEnum.swift; sourceTree = "<group>"; };
 		AAEC353C221F14E2003FB9F6 /* CRLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +132,49 @@
 			path = StartScreen;
 			sourceTree = "<group>";
 		};
+		AA665DC2223D825A007E3CF5 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				AAEC353A221DFFC3003FB9F6 /* CRCounterCategoryEnum.swift */,
+				AA665DCF22478D75007E3CF5 /* CRCategoryLocationEnum.swift */,
+				AA665DBC2239C8FF007E3CF5 /* CRUnitStateEnum.swift */,
+				AAEC3537221D9B6A003FB9F6 /* data */,
+				AAEC35362219FB63003FB9F6 /* model */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		AA665DC3223EE566007E3CF5 /* database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = database;
+			sourceTree = "<group>";
+		};
+		AA665DC6223EE8C2007E3CF5 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				AA665DA9222DE043007E3CF5 /* CRMain_CollectionCell.swift */,
+				AA665DAA222DE044007E3CF5 /* CRMain_CollectionCell.xib */,
+				AA665DC7223EF0D7007E3CF5 /* CRMain_SectionHeader.swift */,
+				AA665DC8223EF0D7007E3CF5 /* CRMain_SectionHeader.xib */,
+				AA665DCD223EF84A007E3CF5 /* CRMain_InfoView.swift */,
+				AA665DCB223EF22A007E3CF5 /* CRMain_InfoView.xib */,
+				AA665DD822483EEB007E3CF5 /* CRMainStart_Row.swift */,
+				AA665DD622483DB0007E3CF5 /* CRMainStart_Row.xib */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		AA665DD1224828E9007E3CF5 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				AA665DB82236E048007E3CF5 /* CRCounterCollectionCell.swift */,
+				AA665DB92236E049007E3CF5 /* CRCounterCollectionCell.xib */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
 		AAEC34F5221772AC003FB9F6 = {
 			isa = PBXGroup;
 			children = (
@@ -139,19 +198,16 @@
 		AAEC3500221772AC003FB9F6 /* counter-reading */ = {
 			isa = PBXGroup;
 			children = (
+				AA665DD1224828E9007E3CF5 /* DetailView */,
+				AA665DC2223D825A007E3CF5 /* core */,
 				AA665DB7222F01AB007E3CF5 /* StartScreen */,
-				AAEC3537221D9B6A003FB9F6 /* data */,
-				AAEC35362219FB63003FB9F6 /* model */,
+				AA665DC6223EE8C2007E3CF5 /* MainView */,
 				AAEC3501221772AC003FB9F6 /* AppDelegate.swift */,
-				AAEC3503221772AC003FB9F6 /* MainScreenViewController.swift */,
+				AAEC3503221772AC003FB9F6 /* CRMainScreenViewController.swift */,
 				AAEC3505221772AC003FB9F6 /* Main.storyboard */,
 				AAEC3508221772AE003FB9F6 /* Assets.xcassets */,
 				AAEC350A221772AE003FB9F6 /* LaunchScreen.storyboard */,
 				AAEC350D221772AE003FB9F6 /* Info.plist */,
-				AA665DA9222DE043007E3CF5 /* CRCollectionCell.swift */,
-				AA665DAA222DE044007E3CF5 /* CRCollectionCell.xib */,
-				AA665DB82236E048007E3CF5 /* CRCounterCollectionCell.swift */,
-				AA665DB92236E049007E3CF5 /* CRCounterCollectionCell.xib */,
 				AA665DAD222ED708007E3CF5 /* CRRoundButton.swift */,
 			);
 			path = "counter-reading";
@@ -178,12 +234,10 @@
 		AAEC35362219FB63003FB9F6 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				AAEC352F221772FC003FB9F6 /* CRUser.swift */,
-				AAEC353A221DFFC3003FB9F6 /* CRCounterCategory.swift */,
-				AA665DBC2239C8FF007E3CF5 /* CRUnitState.swift */,
+				AA665DBE2239CDD5007E3CF5 /* CRBaseModel.swift */,
 				AAEC3533221992AD003FB9F6 /* CRBaseCounter.swift */,
 				AAEC353C221F14E2003FB9F6 /* CRLocation.swift */,
-				AA665DBE2239CDD5007E3CF5 /* CRBaseModel.swift */,
+				AAEC352F221772FC003FB9F6 /* CRUser.swift */,
 				AA665DC02239CE4B007E3CF5 /* CRValues.swift */,
 			);
 			path = model;
@@ -192,7 +246,9 @@
 		AAEC3537221D9B6A003FB9F6 /* data */ = {
 			isa = PBXGroup;
 			children = (
+				AA665DC3223EE566007E3CF5 /* database */,
 				AAEC3538221D9BAA003FB9F6 /* CRData_Mockup.swift */,
+				AA665DC4223EE5A9007E3CF5 /* CRRepositoryMockup.swift */,
 			);
 			path = data;
 			sourceTree = "<group>";
@@ -305,8 +361,11 @@
 				AAEC350C221772AE003FB9F6 /* LaunchScreen.storyboard in Resources */,
 				AA665DBB2236E049007E3CF5 /* CRCounterCollectionCell.xib in Resources */,
 				AAEC3509221772AE003FB9F6 /* Assets.xcassets in Resources */,
+				AA665DD722483DB0007E3CF5 /* CRMainStart_Row.xib in Resources */,
+				AA665DCC223EF22A007E3CF5 /* CRMain_InfoView.xib in Resources */,
+				AA665DCA223EF0D7007E3CF5 /* CRMain_SectionHeader.xib in Resources */,
 				AAEC3507221772AC003FB9F6 /* Main.storyboard in Resources */,
-				AA665DAC222DE044007E3CF5 /* CRCollectionCell.xib in Resources */,
+				AA665DAC222DE044007E3CF5 /* CRMain_CollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,18 +414,23 @@
 				AAEC3530221772FC003FB9F6 /* CRUser.swift in Sources */,
 				AA665DBF2239CDD5007E3CF5 /* CRBaseModel.swift in Sources */,
 				AAEC353D221F14E2003FB9F6 /* CRLocation.swift in Sources */,
+				AA665DCE223EF84A007E3CF5 /* CRMain_InfoView.swift in Sources */,
 				AAEC3539221D9BAA003FB9F6 /* CRData_Mockup.swift in Sources */,
+				AA665DC9223EF0D7007E3CF5 /* CRMain_SectionHeader.swift in Sources */,
+				AA665DC5223EE5A9007E3CF5 /* CRRepositoryMockup.swift in Sources */,
+				AA665DD022478D75007E3CF5 /* CRCategoryLocationEnum.swift in Sources */,
 				AA665DBA2236E049007E3CF5 /* CRCounterCollectionCell.swift in Sources */,
 				AA665DAE222ED708007E3CF5 /* CRRoundButton.swift in Sources */,
-				AAEC3504221772AC003FB9F6 /* MainScreenViewController.swift in Sources */,
+				AAEC3504221772AC003FB9F6 /* CRMainScreenViewController.swift in Sources */,
+				AA665DD922483EEB007E3CF5 /* CRMainStart_Row.swift in Sources */,
 				AA665DB2222EDC84007E3CF5 /* LoginScreenViewController.swift in Sources */,
 				AA665DB4222F017C007E3CF5 /* StartScreenViewController.swift in Sources */,
-				AA665DAB222DE044007E3CF5 /* CRCollectionCell.swift in Sources */,
+				AA665DAB222DE044007E3CF5 /* CRMain_CollectionCell.swift in Sources */,
 				AAEC3502221772AC003FB9F6 /* AppDelegate.swift in Sources */,
-				AA665DBD2239C8FF007E3CF5 /* CRUnitState.swift in Sources */,
+				AA665DBD2239C8FF007E3CF5 /* CRUnitStateEnum.swift in Sources */,
 				AAEC3534221992AD003FB9F6 /* CRBaseCounter.swift in Sources */,
 				AA665DC12239CE4B007E3CF5 /* CRValues.swift in Sources */,
-				AAEC353B221DFFC3003FB9F6 /* CRCounterCategory.swift in Sources */,
+				AAEC353B221DFFC3003FB9F6 /* CRCounterCategoryEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
