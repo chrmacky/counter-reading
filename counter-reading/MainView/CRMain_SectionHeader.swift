@@ -10,7 +10,8 @@ import UIKit
 
 class CRMain_SectionHeader: UIView {
    
-    @IBOutlet weak var sectionHeaderTitle: UILabel!
+
+    @IBOutlet weak private var sectionHeaderTitle: UILabel!
     
     public var controller: CRMainScreenViewController?
 
@@ -19,4 +20,5 @@ class CRMain_SectionHeader: UIView {
             sectionHeaderTitle.text = title
         }
     }
+    
 }
