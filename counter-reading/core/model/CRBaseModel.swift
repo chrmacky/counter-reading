@@ -8,6 +8,7 @@
 
 import Foundation
 
+//TODO: Is this required by all models?
 public class CRBaseModel {
     public let id: String
     
